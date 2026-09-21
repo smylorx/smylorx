@@ -1,0 +1,66 @@
+<svg viewBox="0 0 900 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="smylorx">
+  <defs>
+    <linearGradient id="gMain" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff2d55">
+        <animate attributeName="stop-color" values="#ff2d55;#1e90ff;#ff2d55" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#1e90ff">
+        <animate attributeName="stop-color" values="#1e90ff;#ff2d55;#1e90ff" dur="8s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+    <linearGradient id="gBar" x1="0" y1="0" x2="900" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ff2d55" />
+      <stop offset="100%" stop-color="#1e90ff" />
+    </linearGradient>
+    <radialGradient id="lightRed" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff2d55" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#ff2d55" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="lightBlue" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1e90ff" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#1e90ff" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <rect width="900" height="240" rx="22" fill="#0d1117" />
+
+  <circle cx="180" cy="120" r="150" fill="url(#lightRed)">
+    <animate attributeName="opacity" values="0.9;0.4;0.9" dur="4s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="720" cy="120" r="150" fill="url(#lightBlue)">
+    <animate attributeName="opacity" values="0.9;0.4;0.9" dur="4s" repeatCount="indefinite" />
+  </circle>
+
+  <rect width="900" height="240" rx="22" fill="url(#gMain)" opacity="0.14">
+    <animate attributeName="opacity" values="0.08;0.2;0.08" dur="6s" repeatCount="indefinite" />
+  </rect>
+
+  <polygon points="-160,300 360,-60 400,-60 -120,300" fill="url(#gBar)" opacity="0.16">
+    <animateTransform attributeName="transform" type="translate" values="-900,0;900,0" dur="7s" repeatCount="indefinite" />
+  </polygon>
+
+  <circle cx="450" cy="98" r="92" fill="none" stroke="#1e90ff" stroke-width="1" stroke-dasharray="6 10" opacity="0.5">
+    <animateTransform attributeName="transform" type="rotate" from="0 450 98" to="360 450 98" dur="18s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="450" cy="98" r="116" fill="none" stroke="#ff2d55" stroke-width="1" stroke-dasharray="3 16" opacity="0.5">
+    <animateTransform attributeName="transform" type="rotate" from="360 450 98" to="0 450 98" dur="22s" repeatCount="indefinite" />
+  </circle>
+
+  <text x="453" y="98" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="64" font-weight="800" fill="#ff2d55" opacity="0.85">smylorx</text>
+  <text x="447" y="98" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="64" font-weight="800" fill="#1e90ff" opacity="0.85">smylorx</text>
+  <text x="450" y="98" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="64" font-weight="800" fill="#ffffff">smylorx</text>
+
+  <text x="450" y="152" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="22" fill="#ff2d55" font-weight="600">Developer</text>
+  <text x="450" y="152" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="22" fill="#1e90ff" font-weight="600">
+    Coder
+    <animate attributeName="opacity" values="0;0;1;1;0" dur="4s" repeatCount="indefinite" />
+  </text>
+  <rect x="516" y="140" width="10" height="20" fill="#ffffff">
+    <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite" />
+  </rect>
+
+  <rect x="300" y="178" width="300" height="3" rx="2" fill="url(#gBar)">
+    <animate attributeName="width" values="80;300;80" dur="4s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="1;0.5;1" dur="4s" repeatCount="indefinite" />
+  </rect>
+</svg>

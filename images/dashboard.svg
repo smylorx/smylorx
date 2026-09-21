@@ -1,0 +1,77 @@
+<svg viewBox="0 0 900 250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="dashboard">
+  <defs>
+    <linearGradient id="dBar" x1="0" y1="0" x2="900" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ff2d55" />
+      <stop offset="100%" stop-color="#1e90ff" />
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="250" rx="22" fill="#0d1117" />
+  <rect width="900" height="250" rx="22" fill="#ff2d55" opacity="0.04">
+    <animate attributeName="opacity" values="0.02;0.08;0.02" dur="5s" repeatCount="indefinite" />
+  </rect>
+
+  <line x1="299" y1="40" x2="299" y2="235" stroke="#21262d" stroke-width="1" />
+  <line x1="601" y1="40" x2="601" y2="235" stroke="#21262d" stroke-width="1" />
+
+  <text x="164" y="64" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="14" fill="#8b949e" letter-spacing="2">STATS</text>
+  <rect x="55" y="95" width="198" height="8" rx="4" fill="#161b22" />
+  <rect x="55" y="95" width="150" height="8" rx="4" fill="url(#dBar)">
+    <animate attributeName="width" values="120;198;120" dur="3s" repeatCount="indefinite" />
+  </rect>
+  <rect x="55" y="118" width="198" height="8" rx="4" fill="#161b22" />
+  <rect x="55" y="118" width="130" height="8" rx="4" fill="#1e90ff">
+    <animate attributeName="width" values="170;110;170" dur="3.4s" repeatCount="indefinite" />
+  </rect>
+  <rect x="55" y="141" width="198" height="8" rx="4" fill="#161b22" />
+  <rect x="55" y="141" width="110" height="8" rx="4" fill="url(#dBar)">
+    <animate attributeName="width" values="90;150;90" dur="2.6s" repeatCount="indefinite" />
+  </rect>
+  <circle cx="253" cy="95" r="4" fill="#ff2d55">
+    <animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="253" cy="118" r="4" fill="#1e90ff">
+    <animate attributeName="opacity" values="0;1;0" dur="1.2s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="253" cy="141" r="4" fill="#ff2d55">
+    <animate attributeName="opacity" values="1;0;1" dur="1.6s" repeatCount="indefinite" />
+  </circle>
+  <text x="164" y="180" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="26" font-weight="700" fill="url(#dBar)">∞</text>
+
+  <text x="450" y="64" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="14" fill="#8b949e" letter-spacing="2">LANGUAGES</text>
+  <rect x="395" y="88" width="12" height="12" rx="3" fill="#ff2d55" />
+  <text x="415" y="99" font-family="'Segoe UI', Arial, sans-serif" font-size="13" fill="#c9d1d9">JavaScript</text>
+  <rect x="415" y="108" width="160" height="5" rx="2" fill="#21262d"/>
+  <rect x="415" y="108" width="132" height="5" rx="2" fill="#ff2d55">
+    <animate attributeName="width" values="120;140;120" dur="3s" repeatCount="indefinite" />
+  </rect>
+
+  <rect x="395" y="128" width="12" height="12" rx="3" fill="#1e90ff" />
+  <text x="415" y="139" font-family="'Segoe UI', Arial, sans-serif" font-size="13" fill="#c9d1d9">TypeScript</text>
+  <rect x="415" y="148" width="160" height="5" rx="2" fill="#21262d"/>
+  <rect x="415" y="148" width="112" height="5" rx="2" fill="#1e90ff">
+    <animate attributeName="width" values="100;120;100" dur="3.5s" repeatCount="indefinite" />
+  </rect>
+
+  <rect x="395" y="168" width="12" height="12" rx="3" fill="#ff2d55" />
+  <text x="415" y="179" font-family="'Segoe UI', Arial, sans-serif" font-size="13" fill="#c9d1d9">Python</text>
+  <rect x="415" y="188" width="160" height="5" rx="2" fill="#21262d"/>
+  <rect x="415" y="188" width="96" height="5" rx="2" fill="url(#dBar)">
+    <animate attributeName="width" values="90;104;90" dur="2.8s" repeatCount="indefinite" />
+  </rect>
+
+  <text x="736" y="64" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="14" fill="#8b949e" letter-spacing="2">ACTIVITY</text>
+  <line x1="610" y1="110" x2="860" y2="110" stroke="#21262d" stroke-width="1" />
+  <line x1="610" y1="150" x2="860" y2="150" stroke="#21262d" stroke-width="1" />
+  <line x1="610" y1="190" x2="860" y2="190" stroke="#21262d" stroke-width="1" />
+  <path d="M610 200 C 640 185, 655 208, 685 165 S 740 128, 770 148 S 830 112, 860 135 L860 220 L610 220 Z"
+        fill="url(#dBar)" opacity="0.22" />
+  <path d="M610 200 C 640 185, 655 208, 685 165 S 740 128, 770 148 S 830 112, 860 135" fill="none" stroke="#1e90ff" stroke-width="2.5" stroke-linecap="round" />
+  <circle r="6" fill="#ffffff">
+    <animateMotion dur="6s" repeatCount="indefinite" path="M610 200 C 640 185, 655 208, 685 165 S 740 128, 770 148 S 830 112, 860 135" />
+  </circle>
+  <circle r="12" fill="#ff2d55" opacity="0.4">
+    <animateMotion dur="6s" repeatCount="indefinite" path="M610 200 C 640 185, 655 208, 685 165 S 740 128, 770 148 S 830 112, 860 135" />
+    <animate attributeName="opacity" values="0.4;0.1;0.4" dur="1.5s" repeatCount="indefinite" />
+  </circle>
+</svg>
